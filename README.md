@@ -4,9 +4,13 @@
 
 The Media Player framework on iOS 11.2 comes with massive drops in app performance, blocking the main thread for massive intervals at a time.
 
+Below is a video demonstrating this project with two devices: one running iOS 11.2.1, the other running iOS 11.0.0.
+
+https://www.youtube.com/watch?v=TlKdZIIoMu0
+
 ## Discovery
 
-I am the developer of Lignite Music, a third-party music app for iOS/watchOS. 
+I am the developer of [Lignite Music](http://www.lignitemusic.com), a third-party music app for iOS/watchOS. 
 
 Recently we noticed an influx of reports of immense lag within our app, despite us not making any signifigant changes to our app's codebase.
 
@@ -14,8 +18,8 @@ After investigating the issue, we found that the massive blocking was not our fa
 
 ## What this demo project does
 
-1. It queues and plays your entire music library
-2. It runs an NSTimer on the main thread which updates a label every 100 milliseconds, containing the current track's playback time
+0. It queues and plays your entire music library
+1. It runs an NSTimer on the main thread which updates a label every 100 milliseconds, containing the current track's playback time
 
 This demo project contains the exact code I have used to test this issue. 
 
