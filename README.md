@@ -12,9 +12,9 @@ https://www.youtube.com/watch?v=TlKdZIIoMu0
 
 I am the developer of [Lignite Music](http://www.lignitemusic.com), a third-party music app for iOS/watchOS. 
 
-Recently we noticed an influx of reports of immense lag within our app, despite us not making any signifigant changes to our app's codebase.
+Recently I noticed an influx of reports of immense lag within Lignite Music, despite not making any signifigant changes to my app's codebase.
 
-After investigating the issue, we found that the massive blocking was not our fault but instead was Apple's bug. 
+After investigating the issue, I found that the massive blocking was not my fault but instead was Apple's bug. 
 
 ## What this demo project does
 
