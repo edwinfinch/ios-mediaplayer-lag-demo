@@ -34,3 +34,7 @@ When pausing app execution to see what exactly is causing the hanging, one shoul
 The line which is viewable within the project, as you may notice in that stack trace, leads to the `updateLagTestLabelText` function where the label is updated. This has nothing to do with the lag, so this "clue" is more of a red herring than anything.
 
 I have tested this on two other devices, one running iOS 11.0 and one running iOS 9.3.5, both of which the hangs I have described above do not occur whatsoever.
+
+## Bug Report to Apple & OpenRadar
+
+I have submitted this bug to Apple, and also [posted it on OpenRadar](https://openradar.appspot.com/radar?id=5033258869850112).
